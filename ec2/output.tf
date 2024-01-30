@@ -3,3 +3,7 @@ output "ec2_id"{
    value = aws_instance.ec2_instance.id
    sensitive = false
  }
+
+ output "ec2-arn" {
+   value = aws_instance.ec2_instance.arn
+ }
